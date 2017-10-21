@@ -1,0 +1,18 @@
+1. pip install Django
+  a. Django installed successfully
+  b. This will install or upgrade pip. Additionally, it will install setup tools and wheel if they're not installed already.
+2. pip list
+  a. Pip list displays a list of packages I've installed. List installed packages, including editables.
+3. pip install Django (again)
+  a. Requirement already satisfied.
+4. pip freeze
+  a. Output installed packages in requirements format. "Freeze" gives us the standard requirement format that may be used later with pip install -r to install requirements from.
+5. pip freeze vs. pip list
+  a. Pip list lists everything.
+  b. Pip freeze just doesn't list packages that pip itself depends on. 
+6. pip show Django
+  a. Shows information about an installed package.
+7. pip uninstall Django
+  a. Lists all the things that pip will uninstall when it removes the packages and asks for confirmation.
+8. pip search Flask
+  a. Returns a list of every package with Flask in the name or description.
